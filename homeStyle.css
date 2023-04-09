@@ -1,0 +1,84 @@
+/* HOMEPAGE CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c6d0df;
+}
+
+ul {
+    display: flex;
+    background-color: #afbacb;
+}
+
+ul a {
+
+    text-decoration: none;
+}
+
+.navItem {
+    color: #1a3c73;
+    font-size: 23px;
+    list-style: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.navItem:hover {
+    color: #3b66aa;
+}
+
+.logoText {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+
+
+h1 {
+    margin-left: 2em;
+    margin-bottom: 2em;
+    font-family: cursive;
+    color: #1a3c73;
+}
+
+.imageBox {
+    margin-top: 5em;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+.imageBox img {
+    height: 250px;
+    width: 250px;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    border-radius: 6px;
+    transition: transform 1s;
+}
+
+img:hover {
+    /* transform: translate(20px, 20px); */
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #afbacb;
+    margin-top: 5em;
+}
+
+footer p {
+    padding: 2em;
+    font-size: 20px;
+    font-family: cursive;
+    color: #1a3c73;
+}
